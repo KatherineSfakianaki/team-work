@@ -17,51 +17,57 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Τιτλος σελιδας</a>
+    <nav class="navbar navbar-expand-lg" style="background-color: grey;" style="color: black;
+  
+      <a class="navbar-brand href="#">Τιτλος σελιδας</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <span class="btn btn-outline-dark" style="color: black;"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg>
+         </span>
+            </button>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: black;">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Αρχική Σελίδα <span class="sr-only">(current)</span></a>
+          <li class="nav-item active" style="color: black;">
+            <a class="nav-link" href="#"style="color: black;" >Αρχική Σελίδα <span class="sr-only">(current)</span></a>
           </li>
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Περιεχόμενα
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+              Κορονοϊός στην Ελλάδα 
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Κορονοϊός στην Ελλάδα</a>
-              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="#" style="color: black;">Κρούσματα</a>
+             
+              <a class="dropdown-item" href="#" style="color: black;">Αποφάσεις για τα Σχολεία</a>
+              
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#"></a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: black;"> Οδηγίες ΕΟΔΥ </a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button type="button" class="btn btn-outline-info">Search</button>
         </form>
       </div>
     </nav>
 
-    
+  <div class="container"> </div>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner" style="background-color: black;">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/koronoios-ellada-covid19.jpg" class="d-block image-custom" alt="Corona virus">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/Picture2.png" class="d-block image-custom" alt="Μενουμε Ασφαλεις">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/Picture1.png" class="d-block image-custom" alt="Μενουμε Σπιτι">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -73,7 +79,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
+  </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
