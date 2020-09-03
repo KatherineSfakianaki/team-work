@@ -10,3 +10,7 @@
 .context {
   margin: 50px;
 }
+.card {
+  width: 18rem;
+  margin: auto;
+}
